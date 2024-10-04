@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+header {
+  padding: 1% 5%;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+
+  max-width: 800px;
+
+  margin-top: 10px;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a.logo {
+    font: 400 20px "Pirata One";
+    color: black;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 10px;
+
+    a {
+      color: black;
+      // padding: 5px 10px;
+      font-family: "Oswald";
+      text-transform: uppercase;
+    }
+    a.sair {
+      color: red;
+    }
+  }
+}
+
+h1 {
+    font: 400 20px "Oswald";
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+
+    letter-spacing: 1px;
+  }
+
+  section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+
+  .container-canais {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
